@@ -31,10 +31,9 @@ dupletTPer=`echo $countT $flipTime | awk -F" " '{ a=$1; b=$2; res1=(a/b*100); pr
 count=0
 arr[((count++))]=$((dupletHPer))
 arr[((count++))]=$((dupletTPer))
-echo ${arr[@]}
+echo ${arr[@]}  UserCase----->2
 
-#!/bin/bash -x
-read -p "Enter the coin fliping time : " flipTime
+#!/bin/bash -x       UserCase----->2
 i=1
 countHH=0
 countHT=0
